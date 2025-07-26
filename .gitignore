@@ -22,8 +22,13 @@ target/
 .springBeans
 .sts4-cache
 
-.ENV
 .env
+
+allure-results/
+allure-results
+allure-report
+allure-report/
+
 
 ### NetBeans ###
 /nbproject/private/
