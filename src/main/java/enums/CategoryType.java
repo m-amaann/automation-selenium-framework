@@ -1,4 +1,7 @@
 package enums;
 
-public class CategoryType {
+public enum CategoryType {
+    REGRESSION,
+    SMOKE,
+    SANITY
 }

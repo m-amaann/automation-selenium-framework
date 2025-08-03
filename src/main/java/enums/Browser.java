@@ -1,4 +1,7 @@
 package enums;
 
-public class Browser {
+public enum Browser {
+    CHROME,
+    EDGE,
+    FIREFOX
 }
