@@ -32,3 +32,18 @@ Run tests via TestNG:
 ``` 
 mvn test 
 ```
+
+### config.properties
+
+``` 
+base.url=
+browser=chrome
+headless=true
+```
+
+### Screenshots / Reports
+
+ExtentReports dashboard, test result screenshots, and summary.
+
+
+
