@@ -1,8 +1,6 @@
 # AUTOMATION TESTING FRAMEWORK
 
-This is a robust, scalable, and extensible Test Automation Framework using **Java**, **TestNG**, **Selenium**, *
-*ExtentReports**, and other modern tools. Designed for both UI and API testing with support for HTML reporting and
-logging.
+This is a robust, scalable, and extensible Test Automation Framework using **Java**, **TestNG**, **Selenium**, **ExtentReports**, and other modern tools. Designed for both UI and API testing with support for HTML reporting and logging.
 
 ---
 
