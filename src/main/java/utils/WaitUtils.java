@@ -12,11 +12,12 @@ public class WaitUtils {
         return new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
     }
 
+    // Display Elements
     public static WebElement waitForVisibility(WebDriver driver, By locator, int timeoutInSeconds) {
         return getWait(driver, timeoutInSeconds).until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
-    // Wait for an element to be clickable
+    // Display an elements to be clickable
     public static WebElement waitForClickable(WebDriver driver, By locator, int timeoutInSeconds) {
         return getWait(driver, timeoutInSeconds).until(ExpectedConditions.elementToBeClickable(locator));
     }

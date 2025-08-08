@@ -17,10 +17,9 @@ public class BasePage {
         ChromeDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
 
-        driver.navigate().to("https://mdcomputers.lk");
+        driver.get("https://mdcomputers.lk");
 
-//        driver.WebDriverWait(driver, Duration.ofSeconds(10));
-//        WebElement el = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Amaan")));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 
 
         driver.quit();
