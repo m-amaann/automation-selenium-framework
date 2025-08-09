@@ -1,9 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite" parallel="tests" thread-count="1">
-<test name="All Test Suite" preserve-order="true" >
-    <classes>
-        <class name="tests.HomeTest"/>
-    </classes>
-</test>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" thread-count="2" parallel="tests">
+    <test verbose="2" preserve-order="true" name="/Users/aman/Desktop/automation-selenium-framework">
+        <classes/>
+    </test>
 </suite>
+
+screenshots/
+reports/
+logs/
+src/
+    main/
+        java/
+            annotations/
+            base/
+                BasePage.java
+                BaseTest.java
+            constants/
+            driver/
+                DriverFactory.java
+                DriverManager.java
+            enums/
+                Browser.java
+                CategoryType.java
+            exceptions/
+                FrameworkException.java
+                HeadlessNotSupportedException.java
+                InvalidPathForExcelException.java
+                InvalidPathForExtentReportFileException.java
+                InvalidPathForFilesException.java
+                InvalidRemoteWebDriverURLException.java
+            listeners/
+            pages/
+            utils/
+                BrowserInfoUtils.java
+                LogUtils.java
+                ReportUtils.java
+                ScreenshotUtil.java
+                WaitUtils.java
+            helpers/
+            tests/
+        resources/
+            config.properties
+            log4j2.xml
+            log4j2.properties
+    test/
+        java/
+            tests/
+
+testng.xml

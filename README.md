@@ -1,6 +1,8 @@
 # AUTOMATION TESTING FRAMEWORK
 
-This is a robust, scalable, and extensible Test Automation Framework using **Java**, **TestNG**, **Selenium**, **ExtentReports**, and other modern tools. Designed for both UI and API testing with support for HTML reporting and logging.
+This is a robust, scalable, and extensible Test Automation Framework using **Java**, **TestNG**, **Selenium**, *
+*ExtentReports**, and other modern tools. Designed for both UI and API testing with support for HTML reporting and
+logging.
 
 ---
 
@@ -42,6 +44,15 @@ headless=true
 ### Screenshots / Reports
 
 ExtentReports dashboard, test result screenshots, and summary.
+
+### UI mode
+
+mvn clean test -Dbrowser=chrome -Dheadless=false
+
+### Headless mode
+
+mvn clean test -Dbrowser=chrome -Dheadless=true
+
 
 
 
