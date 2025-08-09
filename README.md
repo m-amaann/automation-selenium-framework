@@ -17,7 +17,6 @@ logging.
 | `webdrivermanager` | `5.7.0`  | Automatically downloads and manages browser drivers.            |
 | `rest-assured`     | `4.3.3`  | API testing for RESTful services.                               |
 | `log4j-core`       | `2.24.3` | Logging of test events and debugging info.                      |
-| `slf4j-simple`     | `2.0.13` | SLF4J implementation used for simplified logging output.        |
 
 ---
 
