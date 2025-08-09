@@ -47,12 +47,15 @@ ExtentReports dashboard, test result screenshots, and summary.
 
 ### UI mode
 
+`
 mvn clean test -Dbrowser=chrome -Dheadless=false
+`
 
 ### Headless mode
 
+`
 mvn clean test -Dbrowser=chrome -Dheadless=true
-
+`
 
 
 
